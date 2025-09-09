@@ -45,9 +45,4 @@ A machine learning project to detect fraudulent bank transactions using a Random
 - Explore EDA tabs for insights into fraud patterns.
 - View model metrics and feature importance for transparency.
 
-## Requirements
-- Python 3.8+
-- pandas, numpy, scikit-learn, imbalanced-learn, joblib, streamlit, matplotlib, seaborn
 
-## License
-MIT
