@@ -25,7 +25,6 @@ def train_model():
         X, y, test_size=0.3, stratify=y, random_state=42
     )
 
-    # Resample training data using SMOTE
     smote = SMOTE(random_state=42)
     X_train_res, y_train_res = smote.fit_resample(X_train, y_train)
 

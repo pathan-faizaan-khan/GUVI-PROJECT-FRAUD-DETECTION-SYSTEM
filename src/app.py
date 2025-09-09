@@ -86,7 +86,6 @@ with tab3:
     if report:
         st.dataframe(pd.DataFrame(report).transpose().round(3))
     
-    # Feature importance (if available)
     if hasattr(model, 'feature_importances_'):
         st.subheader("Feature Importance")
         importances = pd.Series(model.feature_importances_, index=model.feature_names_in_)
